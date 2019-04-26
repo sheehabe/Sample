@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select a time"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:id="@+id/timePickerID">
+
+    </TimePicker>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneBtn"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

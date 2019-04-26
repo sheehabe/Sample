@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:context=".MainActivity"
+        android:background="#088da5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/nightmareTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Tour Trip"
+                android:textStyle="bold"
+                android:textColor="@color/yellow"
+                android:textAllCaps="false"
+                android:textSize="45dp" />
+
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:id="@+id/linear2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/roundedbutton"
+                android:weightSum="1">
+                <ImageView
+                    android:id="@+id/emailIV"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_email_blackk_24dp"/>
+
+                <EditText
+                    android:id="@+id/emailET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:imeOptions="actionNext"
+                    android:layout_marginRight="15dp"
+                    android:hint="Enter email address"
+                    android:inputType="textEmailAddress"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_marginTop="2dp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button_upload"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true" />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:id="@+id/linear3"
+                android:layout_below="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/roundedbutton"
+                android:weightSum="1">
+                <ImageView
+                    android:id="@+id/passwordIV"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/password"/>
+
+                <EditText
+                    android:id="@+id/passwordET"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="15dp"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberPassword|textPassword"
+                    android:hint="Enter your password"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_marginTop="40dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundedbutton3"
+                android:text="LOG IN"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/hintTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Forgert your password"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                />
+            <LinearLayout
+                android:layout_marginTop="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/bottomTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Don't have an account ?"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    />
+                <TextView
+                    android:id="@+id/SignUpTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:text="Sign up"
+                    android:textColor="#ff00ff"
+                    android:textAllCaps="false"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_marginTop="50dp"
+                android:id="@+id/emtyTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</layout>

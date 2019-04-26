@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/atm"
+            android:icon="@drawable/hospital"
+            android:title="ATM" />
+        <item
+            android:id="@+id/mosque"
+            android:icon="@drawable/mosque"
+            android:title="Mosque" />
+        <item
+            android:id="@+id/bank"
+            android:icon="@drawable/bank"
+            android:title="Bank" />
+        <item
+            android:id="@+id/bus"
+            android:icon="@drawable/police"
+            android:title="Bus-Stamd" />
+        <item
+            android:id="@+id/airport"
+            android:icon="@drawable/police"
+            android:title="Airport" />
+        <item
+            android:id="@+id/cafe"
+            android:icon="@drawable/mosque"
+            android:title="Cafe" />
+        <item
+            android:id="@+id/resturent"
+            android:icon="@drawable/mosque"
+            android:title="Resturent" />
+        <item
+            android:id="@+id/hospital"
+            android:icon="@drawable/hospital"
+            android:title="Hospital" />
+        <item
+            android:id="@+id/pharmacy"
+            android:icon="@drawable/hospital"
+            android:title="Pharmacy" />
+        <item
+            android:id="@+id/police"
+            android:icon="@drawable/police"
+            android:title="Police-Station" />
+        <item
+            android:id="@+id/train"
+            android:icon="@drawable/hospital"
+            android:title="Train" />
+        <item
+            android:id="@+id/hotel"
+            android:icon="@drawable/mosque"
+            android:title="Hotel" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/memory"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

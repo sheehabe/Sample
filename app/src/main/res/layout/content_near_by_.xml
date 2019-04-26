@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".NearBy.NearBy_Activity"
+        tools:showIn="@layout/app_bar_near_by_">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:padding="5dp"
+            android:background="@color/violet"
+            android:orientation="vertical"
+            android:weightSum="14"
+            >
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp">
+                <TextView
+                    android:id="@+id/header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please Select Your Place"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textColor="#ffffff"
+                    android:padding="2dp"/>
+                <TextView
+                    android:id="@+id/header2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="which you find"
+                    android:textStyle="italic"
+                    android:textAllCaps="false"
+                    android:textColor="#ff00"
+                    android:textAlignment="center"
+                    android:layout_below="@+id/header"
+                    android:textSize="15dp"/>
+
+
+            </RelativeLayout>
+
+            <GridLayout
+                android:layout_weight="12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:rowCount="4"
+                android:padding="3dp"
+                android:alignmentMode="alignMargins"
+                android:columnOrderPreserved="false">
+
+                <!--for row 1-->
+                <!--for coloumn 1-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="atmIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/atm"
+                            android:background="@color/white"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="atmTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="ATM"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 2-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="mosqueIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/mosque"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="mosqueTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:text="MOSQUE"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 3-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="bankIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/bank"
+                            android:layout_gravity="center_horizontal"
+
+                            />
+                        <TextView
+                            android:onClick="bankTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="BANK"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for row 2-->
+                <!--for coloumn 1-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:layout_weight="1"
+                            android:onClick="busIV"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/bus"
+                            android:background="@color/white"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="busTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="BUS STAND"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 2-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="airportIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/airport4"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="airportTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:text="AIRPORT"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 3-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="cafeIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/cafe2"
+                            android:layout_gravity="center_horizontal"
+
+                            />
+                        <TextView
+                            android:onClick="cafeTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="CAFE"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--for row 3-->
+                <!--for coloumn 1-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="resturentIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/resturent"
+                            android:background="@color/white"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="resturentTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="RESTURENT"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 2-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="hospitalIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/hospital"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="hospitalTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:text="HOSPITAL"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 3-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="pharmacyIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/pharmacy"
+                            android:layout_gravity="center_horizontal"
+
+                            />
+                        <TextView
+                            android:onClick="pharmacyTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="PHARMACY"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <!--for row 4-->
+                <!--for coloumn 1-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="policeIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/police"
+                            android:background="@color/white"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="policeTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="POLICE"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 2-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="trainIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/train"
+                            android:layout_gravity="center_horizontal"
+                            />
+                        <TextView
+                            android:onClick="trainTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:text="TRAIN"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+                <!--for coloumn 3-->
+                <android.support.v7.widget.CardView
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_columnWeight="1"
+                    android:layout_rowWeight="1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    app:cardElevation="2dp"
+                    app:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_margin="2dp"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/parrot"
+                        android:padding="5dp"
+                        >
+
+                        <ImageView
+                            android:onClick="hotelIV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:src="@drawable/hotel"
+                            android:layout_gravity="center_horizontal"
+
+                            />
+                        <TextView
+                            android:onClick="hotelTV"
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="HOTEL"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/white"/>
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </GridLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

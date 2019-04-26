@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/trip"
+            android:icon="@drawable/trip"
+            android:title="Add Trip" />
+        <item
+            android:id="@+id/memory"
+            android:icon="@drawable/memories"
+            android:title="Add Memories" />
+        <item
+            android:id="@+id/budget"
+            android:icon="@drawable/wallet"
+            android:title="Add Budget" />
+        <item
+            android:id="@+id/near"
+            android:icon="@drawable/ic_my_location_black_24dp"
+            android:title="Nearby" />
+        <item
+            android:id="@+id/weather"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="Weather" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_iconfinder_icons_exit2_1564506"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

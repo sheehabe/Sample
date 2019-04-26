@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UpdateActivity"
+        android:background="#58B294"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/yellow"
+            android:text="UPDATE BUDGET"/>
+
+        <LinearLayout
+            android:layout_marginTop="75dp"
+            android:background="@drawable/roundedbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <EditText
+                android:id="@+id/expenseTypeET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Enter Your Expense Type"
+
+                android:textSize="25sp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/roundedbutton6"
+            android:weightSum="1">
+            <EditText
+                android:id="@+id/updateAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberDecimal"
+                android:hint="Enter expense amount"
+                android:textAllCaps="false"/>
+            <ImageView
+                android:id="@+id/expenseIV"
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/taka_sign"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/roundedbutton6"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/updateDate"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:inputType="datetime"
+                android:hint="Enter expense date"
+                android:textAllCaps="false"
+                 />
+            <ImageView
+                android:id="@+id/expenseDateIV"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_date_range_black_24dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:id="@+id/linear3"
+            android:background="@drawable/roundedbutton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/updateTime"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:inputType="time"
+                android:hint="Enter expence time(Optional)"
+                android:textAllCaps="false" />
+            <ImageView
+                android:id="@+id/expenseTimeIV"
+                android:layout_gravity="center"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/time"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="45dp"
+            android:id="@+id/linear4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/documentIV"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/clipboard"/>
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/updateDocumentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/parrot"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton2"
+                android:text="Update Document (if any)"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Update expence"
+            android:backgroundTint="@color/parrot"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton2"
+             />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="weathe_api_key">c8ec88bd32e4febab50b194549e0d2e6</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_near_by_">NearBy_Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="trips">Trips</string>
+    <string name="memories">Memories</string>
+    <string name="wallet">Wallet</string>
+    <string-array name="expence_type">
+        <item>Electricity</item>
+        <item>Transport</item>
+        <item>Lunch</item>
+        <item>Daily Bazar</item>
+        <item>Medicine</item>
+        <item>Mobiel Bill</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

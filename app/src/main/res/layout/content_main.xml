@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        tools:showIn="@layout/app_bar_main"
+        >
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/violet"
+            android:layout_above="@+id/bottom_navigation">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/newtrip"
+                android:layout_gravity="right|bottom"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/yellow"
+                android:src="@drawable/ic_add_red_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </FrameLayout>
+
+
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/yellow"
+            android:backgroundTintMode="add"
+            app:menu="@menu/navigation"
+            android:background="?android:attr/windowBackground"
+            >
+
+        </android.support.design.widget.BottomNavigationView>
+
+
+    </RelativeLayout>
+</layout>

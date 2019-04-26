@@ -1,0 +1,307 @@
+{
+  "project_info": {
+    "project_number": "726475287821",
+    "firebase_url": "https://sheehabe-f66fa.firebaseio.com",
+    "project_id": "sheehabe-f66fa",
+    "storage_bucket": "sheehabe-f66fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:486a7956cca18cb7",
+        "android_client_info": {
+          "package_name": "com.sheehabe.bitmweathertourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-ko8ctiq3jtfe1sb6oo0aqnntdv6hb3b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.bitmweathertourmate",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:86e32e8232a0fa76",
+        "android_client_info": {
+          "package_name": "com.sheehabe.dailyexpencepw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-ba904kbjjfiuut4cj3t4sras3ls1aufq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.dailyexpencepw",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:e2ebb45407c6cf46",
+        "android_client_info": {
+          "package_name": "com.sheehabe.firebaseexamapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-k6jk3055k13qt47gvin5sk07r0o4bbr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.firebaseexamapplication",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:565afbdd5d7ca526",
+        "android_client_info": {
+          "package_name": "com.sheehabe.firebaseuploadimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-k6fp0tlio689debl1f17k7agbc2cqsfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.firebaseuploadimage",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:e6ba18708cf101ba",
+        "android_client_info": {
+          "package_name": "com.sheehabe.loginapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-djmlv12e2gc14rqd1j2katv28pnh2kb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.loginapplication",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:c435c2e054559afd",
+        "android_client_info": {
+          "package_name": "com.sheehabe.realtimeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-jjrv38gbohrt4p3qtv0t7n6aj4jvf18a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.realtimeapplication",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:607a090fbfb47e3a",
+        "android_client_info": {
+          "package_name": "com.sheehabe.signinsignupapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-gs9gdmaha0e3j59ni5m1h9odu8b32861.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.signinsignupapplication",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726475287821:android:d5ed2a07052abd87",
+        "android_client_info": {
+          "package_name": "com.sheehabe.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726475287821-cb7o3dk69olbl12lbcvmq5t7df6k7bob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sheehabe.tourmate",
+            "certificate_hash": "2cb52b19070df356edca923665d72e7a532ad498"
+          }
+        },
+        {
+          "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcYXykP-DwA-VNfWHbXDhgUIaBqRCoCrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726475287821-bir3aio1c4l4en3p9pb6b3070l62bu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
